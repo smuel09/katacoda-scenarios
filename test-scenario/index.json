@@ -6,15 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "Explore configuration",
+        "title": "Create resources",
         "text": "step1.md"
       },
       {
-        "title": "Create module",
+        "title": "Secure Policies",
         "text": "step2.md"
       },
       {
-        "title": "Add module to root configuration",
+        "title": "Create App",
         "text": "step3.md"
       },
       {
@@ -24,7 +24,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "courseBase.sh",
+      "code": "BaseStart.sh",
       "credits": "https://learn.hashicorp.com/terraform"
     },
     "finish": {
