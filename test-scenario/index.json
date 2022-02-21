@@ -24,7 +24,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "BaseStart.sh",
+      "code": "baseStart.sh",
       "credits": "https://learn.hashicorp.com/terraform"
     },
     "finish": {
