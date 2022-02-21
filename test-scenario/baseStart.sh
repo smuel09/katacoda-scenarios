@@ -2,7 +2,7 @@
 
 # Installs Terraform 0.13.5
 curl -O https://releases.hashicorp.com/terraform/terraform_0.15.1/terraform_0.15.1_linux_amd64.zip
-unzip terraform_0.13.5_linux_amd64.zip -d /usr/local/bin/
+unzip terraform_0.15.1_linux_amd64.zip -d /usr/local/bin/
 
 # Installs awscli
 apt-get install awscli -y
@@ -72,6 +72,5 @@ mkdir assets
 curl -o assets/index.html https://raw.githubusercontent.com/hashicorp/learn-terraform-modules/master/modules/aws-s3-static-website-bucket/www/index.html
 curl -o assets/error.html https://raw.githubusercontent.com/hashicorp/learn-terraform-modules/master/modules/aws-s3-static-website-bucket/www/error.html
 
-clear
 
 echo "Ready!"
